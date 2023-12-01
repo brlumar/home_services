@@ -52,7 +52,11 @@
                     </li>
 
                     <button class="btn btn-outline-secondary nav-item" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Schedule Now</button>
+                        data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Schedule Now</button>
+
+
+                    <!-- <button class="btn btn-outline-secondary nav-item" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Schedule Now</button> -->
 
                 </ul>
             </div>
@@ -61,12 +65,12 @@
 
 
 
-    <div class="d-flex justify-content-center align-items-center my-5 shadow" id="image_box">
+    <div class="d-flex justify-content-center align-items-center my-5" id="image_box">
         <img src="images/home logo.png" class="card mx-6 p-1 shadow" style="width: 30rem;"
             alt="Homeowner Obligations Made Easy logo">
     </div>
 
-    <section class="card mx-7 m-3 shadow" id="about">
+    <section class="card mx-7 m-3" id="about">
         <div class="card-body bg-body-secondary col d-flex">
             <div class="d-flex justify-content-center align-items-center shadow" id="image_box">
                 <img src="images/family.png" class="card mx-5 p-1 shadow" style="width: 30rem;"
@@ -288,8 +292,8 @@
                         cares about the health and beauty of our lawn. We highly recommend H.O.M.E. Services LLC to
                         anyone
                         seeking a top-notch, family-owned lawn service."</p>
-                        <h5>- The Rodriguez Family, Satisfied Clients</h5>
-                    
+                    <h5>- The Rodriguez Family, Satisfied Clients</h5>
+
 
                     <div class="card shadow">
 
@@ -309,13 +313,29 @@
                             you're looking for a lawn service that goes above and beyond, look no further than H.O.M.E.
                             Services
                             LLC."</p>
-                            <h5>- The Smiths, Happy Homeowners</h5>
-                        
+                        <h5>- The Smiths, Happy Homeowners</h5>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+        id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Contact Us</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <h3>HOME Services LLC</h3>
+            <p>(225)424-7730</p>
+            <p>ContactHomeServiceLLC@gmail.com</p>
+        </div>
+    </div>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
